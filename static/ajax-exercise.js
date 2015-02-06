@@ -32,7 +32,7 @@ function orderMelons(evt) {
 
     $.post("/order-melons",
         $('#order-form').serialize(),
-        function () {
+        function (result) {
             // TODO: show the result message after your form
             // TODO: if the result code is ERROR, make it show up in red (see our CSS!)
         }
